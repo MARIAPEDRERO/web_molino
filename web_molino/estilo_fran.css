@@ -1,0 +1,70 @@
+body{
+font-family: Yu Gothic UI;
+color: rgb(25,55,29); 
+background-color: white;
+padding-top: 100px;
+}
+a{
+text-decoration: none;
+color: rgb(25,55,29); 
+}
+a:hover{
+font-weight: bold;
+}
+/*--------------------------------------------------------------*/
+.encabezado{
+font-size: 12;
+width: 100%;
+background-color: white;
+top: 0px;
+padding-right: 2%;
+padding-left: 2%;
+}
+.columna_izquierda{
+width: 77%;
+float: left;
+background-color: white;
+}
+.columna_derecha{
+width: 17%;
+float: left;
+text-align: center;
+background-color: white;
+}
+.menu{
+width: 100%;
+background-color: rgb(25,55,29);
+position:fixed;
+overflow:hidden;
+}
+.menu_line{
+width:30%;/*240*/
+float: left;
+padding-top:0%;
+}
+.menu_line_2{
+width:70%;
+float: right;
+text-align: center;	/*alinea contenidos de elementos dentro de sus elementos, no los propios elementos*/
+padding-top:2.5%;
+}
+.logo{
+float: left;
+padding-left:20%;
+}
+.menu_item{
+color: white;
+padding:20px;
+}
+.imagen_prueba{
+width: 67%;
+height: 1000;
+background-color: rgb(256,256,256);
+padding-left:33%;
+}
+.p_imagen_prueba{
+width: 100%;
+padding-top:50px;
+float: left;
+
+}
