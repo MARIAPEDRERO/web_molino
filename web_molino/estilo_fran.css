@@ -2,7 +2,8 @@ body{
 font-family: Yu Gothic UI;
 color: rgb(25,55,29); 
 background-color: white;
-padding-top: 100px;
+margin:0;
+padding:0;
 }
 a{
 text-decoration: none;
@@ -16,17 +17,18 @@ font-weight: bold;
 font-size: 12;
 width: 100%;
 background-color: white;
-top: 0px;
-padding-right: 2%;
-padding-left: 2%;
+top: 0%;
+position:fixed;
 }
 .columna_izquierda{
-width: 77%;
+padding-left: 2%;
+width: 80%;
 float: left;
 background-color: white;
 }
 .columna_derecha{
-width: 17%;
+padding-right: 0%;
+width: 18%;
 float: left;
 text-align: center;
 background-color: white;
@@ -34,18 +36,19 @@ background-color: white;
 .menu{
 width: 100%;
 background-color: rgb(25,55,29);
+top:4%;
 position:fixed;
 overflow:hidden;
 }
 .menu_line{
-width:30%;/*240*/
+width:30%;
 float: left;
 padding-top:0%;
 }
 .menu_line_2{
 width:70%;
 float: right;
-text-align: center;	/*alinea contenidos de elementos dentro de sus elementos, no los propios elementos*/
+text-align: center;	/*alinea todo el texto que hay dentro de menu_line_2 dentro de su elemento (es decir, dentro del porcentaje de pantalla que le corresponde)*/
 padding-top:2.5%;
 }
 .logo{
@@ -54,17 +57,43 @@ padding-left:20%;
 }
 .menu_item{
 color: white;
-padding:20px;
+padding-left:5%;
 }
-.imagen_prueba{
-width: 67%;
-height: 1000;
-background-color: rgb(256,256,256);
-padding-left:33%;
+.logo_div{
+text-align: center;
 }
-.p_imagen_prueba{
-width: 100%;
-padding-top:50px;
-float: left;
+.imagen_logo{
+max-width:30%;
+max-height:30%;
+min-width:5%;
+min-height:5%;
+padding-top:14%;
+}
+.laalmazara1_div{
+width:100%;
+}
+.imagen_laalmazara1{
+max-width:100%;
+}
+.laalmazara_texto_1{
+font-size: 20;
+width:90%;
+padding-left:5%;
+padding-top:2%;
+padding-bottom:2%;
+text-align:center;
+}
+.laalmazara2_div{
+width:100%;
+}
+.imagen_laalmazara2{
+max-width:100%;
+}
+.laalmazara_texto_2{
+font-size: 20;
+width:90%;
+padding-left:5%;
+padding-top:2%;
+padding-bottom:2%;
+text-align:center;
 
-}
