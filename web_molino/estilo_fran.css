@@ -42,12 +42,12 @@ position:fixed;
 overflow:hidden;
 }
 .menu_line{
-width:30%;
+width:20%;
 float: left;
 padding-top:0%;
 }
 .menu_line_2{
-width:70%;
+width:80%;
 float: right;
 text-align: center;	/*alinea todo el texto que hay dentro de menu_line_2 dentro de su elemento (es decir, dentro del porcentaje de pantalla que le corresponde)*/
 padding-top:2.5%;
@@ -183,7 +183,10 @@ z-index:-1;
 }
 .div_sostenibilidad{
 width:100%;
+height:100%;
 text-align:center;
+background-image: url("fotos/sostenibilidad_v2.jpg");
+background-size: 100%
 }
 .imagen_sostenibilidad{
 max-width:100%;
