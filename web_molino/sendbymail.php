@@ -1,3 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+
+
 <?php
 
 
@@ -17,7 +23,8 @@ die();
 }
 
 $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
-$email_message .= . $_POST['cuerpo'] . "\n";
+$email_message .= "Correo electrónico: " . $_POST['correo'] . "\n";
+$email_message .=  $_POST['cuerpo'] . "\n";
 
 
 
@@ -26,8 +33,12 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers);
-mail('mariapedrerodelapuente@hotmail.com',$_POST['asunto'] ,$email_message); 
+mail('vera.ingenieria@gmail.com',$_POST['asunto'] ,$email_message); 
+echo "¡Gracias por contactar!";
 
 }
 header('Location: index.html');
 ?>
+</body>
+
+</html>
