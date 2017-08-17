@@ -1,0 +1,13 @@
+
+.instalaciones_table {
+  border: dotted;
+  width: 100%;
+}
+.imagen_instalaciones2{
+  max-width: 100%;
+}
+iframe{
+  width: 100%;
+  height: 50%;
+
+}
